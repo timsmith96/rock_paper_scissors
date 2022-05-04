@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Rock Paper Scissors...</title>
+  </head>
+  <body>
+    <main>
+      <h1>Rock Paper Scissors</h1>
+      <div class="buttons-container">
+        <button class="btn rock">
+          <i class="far fa-hand-rock fa-8x"></i>
+        </button>
+        <button class="btn paper">
+          <i class="fa-regular fa-hand fa-8x"></i>
+        </button>
+        <button class="btn scissors">
+          <i class="far fa-hand-scissors fa-8x"></i>
+        </button>
+      </div>
+      <div class="current-play">
+        <div class="container">
+          <button class="current-player" disabled="true"></button>
+          <p>Player score: <span class="player-score">0</span></p>
+        </div>
+        <div class="container">
+          <button class="current-computer" disabled="true"></button>
+          <p>Computer score: <span class="computer-score">0</span></p>
+        </div>
+      </div>
+      <div class="restart">
+        <button class="restart">Restart</button>
+      </div>
+      <div class="results"></div>
+      <script src="script.js"></script>
+    </main>
+  </body>
 </html>

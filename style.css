@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 800px;
+  margin: auto;
+}
+
+main h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.buttons-container {
+  padding: 25px;
+  text-align: center;
+}
+
+.btn {
+  margin-right: 15px;
+}
+
+i {
+  padding: 20px;
+}
+
+.current-play {
+  text-align: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.current-player,
+.current-computer {
+  width: 148.672px;
+  height: 135.328px;
+}
+
+.current-play {
+  display: flex;
+  justify-content: center;
+}
+
+.results {
+  text-align: center;
+}
+
+.restart {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+p {
+  padding: 5px;
+}
