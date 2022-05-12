@@ -12,6 +12,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Rock Paper Scissors...</title>
   </head>
   <body>
@@ -31,15 +37,19 @@
       <div class="current-play">
         <div class="container">
           <button class="current-player" disabled="true"></button>
-          <p>Player score: <span class="player-score">0</span></p>
+          <p class="p-player-score">
+            Player score: <span class="player-score">0</span>
+          </p>
         </div>
         <div class="container">
           <button class="current-computer" disabled="true"></button>
-          <p>Computer score: <span class="computer-score">0</span></p>
+          <p class="p-computer-score">
+            Computer score: <span class="computer-score">0</span>
+          </p>
         </div>
       </div>
       <div class="restart">
-        <button class="restart">Restart</button>
+        <button class="restart-btn">Restart</button>
       </div>
       <div class="results"></div>
       <script src="script.js"></script>

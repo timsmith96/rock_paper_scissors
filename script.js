@@ -22,6 +22,8 @@ restartButton.addEventListener('click', (e) => {
   computerScore.textContent = 0;
   buttons.forEach((button) => (button.disabled = false));
   results.innerHTML = '';
+  currentComputer.innerHTML = '';
+  currentPlayer.innerHTML = '';
   roundNumber = 1;
 });
 
